@@ -1,0 +1,75 @@
+@media screen and (max-width:1351px)
+{
+    .cont,.nb,.resp-ig1,.resp-nav,.unl,.resp-click{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: auto;
+    }
+    .resp-ig1{
+        width: 21%;
+        height: 27%;
+    }
+    .burger{
+        margin: auto;
+        display: inline-block;
+        position: absolute;
+        cursor: pointer;
+        width: 85%;
+        right: 10%;
+        top:1%
+    }
+    .first,.ig2{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: auto;
+    }
+    .ig2{
+        width: 15%;
+        height: 25%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .p1{margin-left: 27px;}
+    .span,.firstsec,.ig3{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .p2{
+        margin: auto;
+        width: auto;
+    }
+    .ig4{margin-left: 173px;}
+    .thirdsec,.ig5{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .p3{
+        margin: auto;
+        width: auto;
+    }
+    .resp-ig1,.resp-nav,.resp-click{
+        opacity: 0;
+    }
+    .resp-nb-size{
+        height: 11%;
+    }
+    .ig1,.nav,.click{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+    .ig1{
+        width:11%;
+        height: 41%;
+    }
+    #contact{
+        height: auto;
+    }
+}
